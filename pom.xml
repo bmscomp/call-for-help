@@ -8,13 +8,13 @@
         <defaultGoal>clean package</defaultGoal>
     </build>
 
-    <groupId>fr.sciam.back-to-front</groupId>
+    <groupId>fr.sciam.call-for-help</groupId>
     <modelVersion>4.0.0</modelVersion>
 
     <modules>
         <module>slides</module>
     </modules>
-    <name>back to front parent</name>
+    <name>call for help</name>
 
     <packaging>pom</packaging>
 

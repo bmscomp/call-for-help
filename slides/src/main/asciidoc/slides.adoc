@@ -108,7 +108,13 @@ image::quarkus-cucumber.png[role="pull-right",height="90%"]
 - https://docs.quarkiverse.io/quarkus-cucumber/dev/index.html[Quarkus]
 - https://cucumber.io/[Cucumber official website]
 
+
+[.column]
 == Questions !*
 
+[.column]
 Any question, please?
+
+[.column]
+image::presentation.png[role="pull-right",width="300"]
 
