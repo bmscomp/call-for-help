@@ -54,9 +54,14 @@ NOT REALLY AN INTRODUCTION BUT IT'S MORE A CONTEXT
 
 image::quarkus-logo.png[role="pull-right",width="300"]
 
-== Quarkus in one image
+== Quarkus in on image
 
 image::quarkus.png[role="center",height="90%"]
+
+== Quarkus in on second image
+
+image::performance.png[role="center",height="90%"]
+
 
 [.columns]
 == Why Cucumber?
@@ -105,8 +110,8 @@ image::quarkus-cucumber.png[role="pull-right",height="90%"]
 
 - https://github.com/quarkiverse/quarkus-cucumber[Quarkus Cucumber Extension GitHub repo]
 - https://docs.quarkiverse.io/quarkus-cucumber/dev/index.html[Quarkus Cucumber documentation]
-- https://docs.quarkiverse.io/quarkus-cucumber/dev/index.html[Quarkus]
-- https://cucumber.io/[Cucumber official website]
+- https://quarkus.io[Quarkus]
+- https://cucumber.io[Cucumber official website]
 
 
 [.column]
