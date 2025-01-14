@@ -1,0 +1,6 @@
+#IntelliJ IDEA
+.idea/
+Gemfile.lock
+target/
+.DS_Store
+

@@ -1,0 +1,114 @@
+= We need your on Quarkus Cucumber
+Said BOUDJELDA
+:description: I need your help on Quarkus Cucumber
+:copyright: CC BY-SA 4.0
+:data-uri:
+:sectids!:
+:includegifs:
+:toc2:
+:sectanchors:
+:idprefix:
+:idseparator: -
+:icons: font
+:source-highlighter: highlight.js
+:source-language: java
+:macros-on: subs="macros"
+:imagesdir: ../resources/images
+:hide-uri-scheme:
+:revealjs_theme: white
+:revealjsdir: https://cdn.jsdelivr.net/npm/reveal.js@5.1.0
+:revealjs_hash: true
+:revealjs_width: 1500
+:revealjs_center: false
+:docinfo: shared
+:slides-url: //TODO define slides url
+:slides-src: //TODO define slides source
+
+[.columns]
+== Said BOUDJELDA
+
+[.column]
+* Backend Software Engineer *@Sciam.fr*
+* Open Source contributor (Yes I think I can say that ...)
+* Passionate about *Distributed Computing*
+* Follow me on GitHub: https://github.com/bmscomp[https://github.com/bmscomp]
+
+[.column]
+image::profile.png[role="pull-right",width="300"]
+image::sciam.png[role="pull-right",width="200"]
+
+== Introduction
+
+NOT REALLY AN INTRODUCTION BUT IT'S MORE A CONTEXT
+
+[.columns]
+== Why Quarkus?
+
+[.columns]
+- *Java* (The programming language of the enterprise world)
+- Ultra-fast startup time
+- Low memory footprint
+- Native compilation
+- Kubernetes integration
+- Active Community and Enterprise Support
+
+image::quarkus-logo.png[role="pull-right",width="300"]
+
+== Quarkus in one image
+
+image::quarkus.png[role="center",height="90%"]
+
+[.columns]
+== Why Cucumber?
+
+[.column]
+- BDD (Behavior Driven Development)
+- Make tests readable and understandable by non-technical people
+- Living documentation
+- A framework for writing tests in natural language (Gherkin)
+
+[.column]
+image::cucumber-log.png[role="pull-right",width="300"]
+
+== The magic Gerkin
+
+image::gerkin.png[role="center",height="90%"]
+
+== Cucumber in one image
+
+image::cucumber.png[role="pull-right",height="90%"]
+
+== What to do?
+
+- Contribute to the Quarkus Cucumber extension
+
+== We really need you for
+
+- Write documentation
+- Enhance the extension
+- Implement new features
+- Test the extension
+
+== Solve issues
+
+image::issue.png[role="pull-right",height="90%"]
+
+== More
+
+image::quarkus-cucumber.png[role="pull-right",height="90%"]
+
+== What's next?
+
+- The big refactoring of the extension must come one day
+
+== Useful links ?
+
+- https://github.com/quarkiverse/quarkus-cucumber[Quarkus Cucumber Extension GitHub repo]
+- https://docs.quarkiverse.io/quarkus-cucumber/dev/index.html[Quarkus Cucumber documentation]
+- https://docs.quarkiverse.io/quarkus-cucumber/dev/index.html[Quarkus]
+- https://cucumber.io/[Cucumber official website]
+
+== Questions !*
+
+Any question, please?
+

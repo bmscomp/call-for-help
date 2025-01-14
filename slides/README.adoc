@@ -1,0 +1,58 @@
+= Slides for Back to Front talk
+
+This repo contains slides for the talk "Back to Front".
+
+Slides sources are in `src/main/asciidoc` directory, images are in the `src/main/resources/images` directory.
+
+These slides are generated using https://docs.asciidoctor.org/reveal.js-converter/latest/[Asciidoctor for Revealjs].
+
+It generates a Revealjs html file `slides.html` with embedded images in `target/generated-docs` directory.
+
+== Building slides
+
+Slides can be built with Ruby or with java and Maven.
+The Ruby generation is more efficient and provides hot generation while Java is here for people that don't want to mess with Ruby (and prefer mess with Java)
+
+=== Ruby
+
+You need a ruby runtime with version 2.3 or more installed.
+If you need to install Ruby you can check the https://www.ruby-lang.org/en/documentation/installation/[offcial website]
+
+Then install bundler
+
+
+`gem install bundler`
+
+
+And download the dependencies
+
+`bundle update`
+
+and use the local script to render the slides
+
+`./render.sh`
+
+you can also use live render that automatically updates the result when you change source
+
+`./liverender.sh`
+
+generated file will be here:
+
+`target/generated-docs/slides.html`
+
+=== Java And Maven
+
+You need both Java and Maven installed.
+
+just type:
+
+`mvn`
+
+generated file will be in standard maven target:
+
+`target/generated-docs/slides.html`
+
+=== Hot reload
+
+Slides include a livereload script that will automatically reload the browser when you change the source file.
+In order to use you need to browse the file through a local webserver like the one include in intellij or other IDE.

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <artifactId>slides</artifactId>
+
+    <build>
+        <defaultGoal>clean package</defaultGoal>
+        <plugins>
+            <plugin>
+                <artifactId>asciidoctor-maven-plugin</artifactId>
+                <configuration>
+                    <backend>revealjs</backend>
+                    <requires>
+                        <require>asciidoctor-revealjs</require>
+                        <require>asciidoctor-diagram</require>
+                    </requires>
+                    <sourceDirectory>src/main/asciidoc</sourceDirectory>
+                    <sourceDocumentName>slides.adoc</sourceDocumentName>
+                </configuration>
+                <dependencies>
+                    <dependency>
+                        <artifactId>asciidoctorj</artifactId>
+                        <groupId>org.asciidoctor</groupId>
+                        <version>${asciidoctorj.version}</version>
+                    </dependency>
+                    <dependency>
+                        <artifactId>asciidoctorj-revealjs</artifactId>
+                        <groupId>org.asciidoctor</groupId>
+                        <version>${asciidoctorj-revealjs.version}</version>
+                    </dependency>
+                    <dependency>
+                        <artifactId>asciidoctorj-diagram</artifactId>
+                        <groupId>org.asciidoctor</groupId>
+                        <version>${asciidoctorj-diagram.version}</version>
+                    </dependency>
+                </dependencies>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>process-asciidoc</goal>
+                        </goals>
+                        <id>output-html</id>
+                        <phase>generate-resources</phase>
+                    </execution>
+                </executions>
+                <groupId>org.asciidoctor</groupId>
+                <version>${asciidoctor-maven-plugin.version}</version>
+            </plugin>
+        </plugins>
+    </build>
+    <modelVersion>4.0.0</modelVersion>
+    <name>slide generator</name>
+
+    <packaging>pom</packaging>
+    <parent>
+        <artifactId>parent</artifactId>
+        <groupId>fr.sciam.back-to-front</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <properties>
+        <asciidoctor-maven-plugin.version>3.0.0</asciidoctor-maven-plugin.version>
+        <asciidoctorj-diagram.version>2.3.1</asciidoctorj-diagram.version>
+        <asciidoctorj-revealjs.version>5.1.0</asciidoctorj-revealjs.version>
+        <asciidoctorj.version>2.5.13</asciidoctorj.version>
+    </properties>
+
+    <version>1.0-SNAPSHOT</version>
+
+
+</project>
